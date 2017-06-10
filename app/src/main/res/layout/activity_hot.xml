@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poinformuj znajomego przez SMS!"
+        android:background="#558b2f"
+        android:textColor="@android:color/white"
+        android:id="@+id/send_sms"
+        android:textSize="20sp"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_number"
+        android:hint="Tu wpisz numer telefonu odbiorcy"
+        android:gravity="center"
+        android:inputType="number"
+        />
+    
+
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvExp"></ExpandableListView>
+
+
+</LinearLayout>

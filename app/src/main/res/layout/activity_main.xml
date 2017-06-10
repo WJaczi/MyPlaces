@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.myplaces.MainActivity">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:text="SELECT PLACES YOU WOULD LIKE TO SEE ON A MAP" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="30dp"
+            android:id="@+id/metro_stations"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Metro Stations" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="30dp"
+        android:id="@+id/bike_stations"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Bike Stations" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="30dp"
+        android:id="@+id/park_and_ride"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Park and Ride" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="30dp"
+        android:id="@+id/hot_spots"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Hot Spots" />
+</LinearLayout>
