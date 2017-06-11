@@ -1,5 +1,9 @@
 package com.example.android.myplaces;
 
+<<<<<<< HEAD
+=======
+import android.app.Activity;
+>>>>>>> 46934a180301248c43a2d600e5a9b7fb1d845f05
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -19,10 +23,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find the View that shows the numbers category
+<<<<<<< HEAD
 
         TextView metrostation = (TextView) findViewById(R.id.metro_stations);
         // Set a click listener on that View
         metrostation.setOnClickListener(new View.OnClickListener() {
+=======
+        TextView bikestations = (TextView) findViewById(R.id.bike_stations);
+
+        // Set a click listener on that View
+        bikestations.setOnClickListener(new View.OnClickListener() {
+>>>>>>> 46934a180301248c43a2d600e5a9b7fb1d845f05
             // The code in this method will be executed when the bike_stations category is clicked on.
             @Override
             public void onClick(View view) {
@@ -35,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Find the View that shows the metro_station category
+<<<<<<< HEAD
         TextView bikestations = (TextView) findViewById(R.id.bike_stations);
 
         // Set a click listener on that View
@@ -74,3 +86,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
+=======
+        TextView metrostation = (TextView) findViewById(R.id.metro_station);
+
+        // Find the View that shows the park_and_ride category
+        TextView parkandride = (TextView) findViewById(R.id.park_and_ride);
+
+
+        }
+    }
+>>>>>>> 46934a180301248c43a2d600e5a9b7fb1d845f05

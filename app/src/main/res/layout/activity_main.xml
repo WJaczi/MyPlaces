@@ -18,18 +18,30 @@
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:textSize="30dp"
+<<<<<<< HEAD
             android:id="@+id/metro_stations"
             android:background="?android:attr/selectableItemBackground"
             android:text="Metro Stations" />
+=======
+            android:id="@+id/bike_stations"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Bike Stations" />
+>>>>>>> 46934a180301248c43a2d600e5a9b7fb1d845f05
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp"
         android:textSize="30dp"
+<<<<<<< HEAD
         android:id="@+id/bike_stations"
         android:background="?android:attr/selectableItemBackground"
         android:text="Bike Stations" />
+=======
+        android:id="@+id/metro_station"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Metro Stations" />
+>>>>>>> 46934a180301248c43a2d600e5a9b7fb1d845f05
 
     <TextView
         android:layout_width="match_parent"
@@ -40,6 +52,7 @@
         android:background="?android:attr/selectableItemBackground"
         android:text="Park and Ride" />
 
+<<<<<<< HEAD
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,4 +61,6 @@
         android:id="@+id/hot_spots"
         android:background="?android:attr/selectableItemBackground"
         android:text="Hot Spots" />
+=======
+>>>>>>> 46934a180301248c43a2d600e5a9b7fb1d845f05
 </LinearLayout>

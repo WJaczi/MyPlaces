@@ -4,8 +4,11 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.GoogleMap.OnMyLocationButtonClickListener;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+<<<<<<< HEAD
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.MarkerOptions;
+=======
+>>>>>>> 46934a180301248c43a2d600e5a9b7fb1d845f05
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -14,11 +17,16 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+<<<<<<< HEAD
 import android.util.Log;
 import android.widget.Toast;
 
 import java.util.ArrayList;
 
+=======
+import android.widget.Toast;
+
+>>>>>>> 46934a180301248c43a2d600e5a9b7fb1d845f05
 /**
  * This demo shows how GMS Location can be used to check for changes to the users location.  The
  * "My Location" button uses GMS Location to set the blue dot representing the users location.
@@ -54,6 +62,7 @@ public class MapsActivity extends AppCompatActivity
         SupportMapFragment mapFragment =
                 (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+<<<<<<< HEAD
         //mMap.setOnMyLocationButtonClickListener(this);
 
         //ArrayList<String> nameList=getIntent().getExtras().getStringArrayList("nazwHotSpot");
@@ -61,6 +70,8 @@ public class MapsActivity extends AppCompatActivity
         //Marker m = mMap.addMarker(new MarkerOptions().position(hotSpot).title(nazwa).
         //      icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
         //markerList.add(m);
+=======
+>>>>>>> 46934a180301248c43a2d600e5a9b7fb1d845f05
     }
 
     @Override

@@ -26,5 +26,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.google.android.gms:play-services:9.6.1'
     compile 'com.google.android.gms:play-services:9.6.1'
+<<<<<<< HEAD
     compile 'com.squareup.retrofit2:retrofit:2.3.0'
+=======
+>>>>>>> 46934a180301248c43a2d600e5a9b7fb1d845f05
 }
